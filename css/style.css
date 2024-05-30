@@ -5,6 +5,10 @@
     border: 1px dashed black;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 .container-full {
     width: 100%;
 }
@@ -31,6 +35,13 @@ ul {
 header ul li a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
+}
+
+header ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
 }
 
 /* COLONNE */
@@ -133,6 +144,36 @@ header ul li a {
 
 .c-grey {
     color: #999999;
+}
+
+/* TEXT ALIGN */
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.va-middle {
+    vertical-align: middle;
+}
+
+/* ALIGN */
+
+.align-c-center {
+    align-content: center;
+}
+
+/* MARGIN */
+
+.margin-r-20 {
+    margin-right: 20px;
 }
 
 /* H TEST */
