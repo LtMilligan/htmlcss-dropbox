@@ -14,7 +14,7 @@ body {
 }
 
 .container-lrg {
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -41,7 +41,47 @@ header ul li a {
 header ul li {
     display: inline-block;
     vertical-align: middle;
+}
+
+header ul li:not(#header-button) {
     padding: 10px 20px;
+}
+
+#inizia-button {
+    padding: 10px 20px;
+}
+
+#inizia-button:hover {
+    background-color: #0D2481;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+#jumbo li:not(#arrow) {
+    padding: 20px 0;
+}
+
+#arrow {
+    padding: 60px 0 20px 0;
+}
+
+#jumbo i::before {
+    font-size: 40px;
+}
+
+.img-jumbo {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 /* COLONNE */
@@ -175,6 +215,18 @@ header ul li {
 .margin-r-20 {
     margin-right: 20px;
 }
+
+.margin-b-40 {
+    margin-bottom: 40px;
+}
+
+.margin-t-50 {
+    margin-top: 50px;
+}
+
+/* PADDING */
+
+
 
 /* H TEST */
 
