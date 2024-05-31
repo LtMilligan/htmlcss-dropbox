@@ -95,7 +95,7 @@ h1 {
 }
 
 .col-33 {
-    width: 33%;
+    width: calc(100% / 3);
 }
 
 .col-40 {
@@ -226,7 +226,22 @@ h1 {
 
 /* PADDING */
 
+.p-t-b-5 {
+    padding: 5px 0;
+}
 
+/* JUSTIFY CONTENT */
+
+.jc-between {
+    justify-content: space-between;
+}
+
+/* DISPLAY */
+
+.display-f-w {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* H TEST */
 
