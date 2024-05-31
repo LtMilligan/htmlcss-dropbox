@@ -91,6 +91,18 @@ h1 {
     position: absolute;
 }
 
+.fa-check {
+    color: #0061FF;
+}
+
+.col-30 hr {
+    width: 60px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
 /* COLONNE */
 
 .col-20 {
@@ -193,6 +205,27 @@ h1 {
     color: #999999;
 }
 
+.c-blue {
+    color: #0061FF;
+}
+
+/* FONT */
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-45 {
+    font-size: 45px;
+}
+
+/* BORDER */
+
+.border-check {
+    border: 3px solid #0061FF;
+    border-radius: 20px;
+}
+
 /* TEXT ALIGN */
 
 .ta-left {
@@ -217,24 +250,72 @@ h1 {
     align-content: center;
 }
 
+.align-i-center {
+    align-items: center;
+}
+
 /* MARGIN */
+
+.margin-l-10 {
+    margin-left: 10px;
+}
 
 .margin-r-20 {
     margin-right: 20px;
+}
+
+.margin-r-40 {
+    margin-right: 40px;
+}
+
+.margin-b-20 {
+    margin-bottom: 20px;
 }
 
 .margin-b-40 {
     margin-bottom: 40px;
 }
 
+.margin-t-20 {
+    margin-top: 20px;
+}
+
 .margin-t-50 {
     margin-top: 50px;
+}
+
+.margin-t-100 {
+    margin-top: 100px;
+}
+
+.margin-t-150 {
+    margin-top: 150px;
+}
+
+.margin-t-20-b-40 {
+    margin: 20px 0 40px 0;
+}
+
+.margin-b-5 {
+    margin-bottom: 5px;
 }
 
 /* PADDING */
 
 .p-t-b-5 {
     padding: 5px 0;
+}
+
+.p-l-r-10 {
+    padding: 0 10px;
+}
+
+.p-1 {
+    padding: 1px;
+}
+
+.p-t-30 {
+    padding-top: 30px;
 }
 
 /* JUSTIFY CONTENT */
@@ -252,6 +333,10 @@ h1 {
 .display-f-w {
     display: flex;
     flex-wrap: wrap;
+}
+
+.display-f {
+    display: flex;
 }
 
 /* H TEST */
