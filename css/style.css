@@ -43,15 +43,22 @@ header ul li {
     vertical-align: middle;
 }
 
+#price-plan ul li {
+    display: inline-block;
+}
+
 header ul li:not(#header-button) {
     padding: 10px 20px;
 }
 
-#inizia-button {
+.button {
+    text-decoration: none;
     padding: 10px 20px;
+    color: white;
+    background-color: #0061FF;
 }
 
-#inizia-button:hover {
+.button:hover {
     background-color: #0D2481;
 }
 
@@ -237,6 +244,10 @@ h1 {
 }
 
 /* DISPLAY */
+
+.display-i-b {
+    display: inline-block;
+}
 
 .display-f-w {
     display: flex;
