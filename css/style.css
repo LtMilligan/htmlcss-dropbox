@@ -103,6 +103,18 @@ h1 {
     width: 100%;
 }
 
+#partner {
+    width: 100%;
+}
+
+#mese {
+    accent-color: #0061FF;
+}
+
+#anno {
+    accent-color: #0061FF;
+}
+
 /* COLONNE */
 
 .col-20 {
@@ -226,6 +238,14 @@ h1 {
     border-radius: 20px;
 }
 
+.border-bottom {
+    border-bottom: 1px solid #999999;
+}
+
+.border-price {
+    border: 1px solid #999999;
+}
+
 /* TEXT ALIGN */
 
 .ta-left {
@@ -296,6 +316,10 @@ h1 {
     margin: 20px 0 40px 0;
 }
 
+.margin-t-50-b-100 {
+    margin: 50px 0 100px 0;
+}
+
 .margin-b-5 {
     margin-bottom: 5px;
 }
@@ -306,12 +330,24 @@ h1 {
     padding: 5px 0;
 }
 
+.p-t-b-10 {
+    padding: 10px 0;
+}
+
+.p-b-30 {
+    padding-bottom: 30px;
+}
+
 .p-l-r-10 {
     padding: 0 10px;
 }
 
 .p-1 {
     padding: 1px;
+}
+
+.p-10 {
+    padding: 10px;
 }
 
 .p-t-30 {
