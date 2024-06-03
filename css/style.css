@@ -2,15 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 body {
     font-family: "Open Sans", sans-serif;
 }
 
+.container-svw100 {
+    width: 100svw;
+}
+
 .container-full {
     width: 100%;
+    margin: 0 auto;
 }
 
 .container-lrg {
@@ -30,6 +35,14 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+footer ul {
+    line-height: 40px;
+}
+
+footer li {
+    font-size: 13px;
 }
 
 header ul li a {
@@ -60,6 +73,13 @@ header ul li:not(#header-button) {
 
 .button:hover {
     background-color: #0D2481;
+}
+
+.light-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
 }
 
 h1 {
@@ -115,7 +135,95 @@ h1 {
     accent-color: #0061FF;
 }
 
+.width-vw {
+    width: 100svw;
+}
+
+.height-16-vw {
+    height: calc(100svw / 6);
+}
+
+.height-33-vw {
+    height: calc(100svw / 3);
+}
+
+#designit {
+    background-color: white;
+    mask-image: url(../img/designit.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#asu {
+    background-color: white;
+    mask-image: url(../img/arizona_state_university.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#uni-florida {
+    background-color: white;
+    mask-image: url(../img/university_of_florida.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#topps {
+    background-color: white;
+    mask-image: url(../img/topps.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#wrb {
+    background-color: white;
+    mask-image: url(../img/world_bicycle_relief.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#hearts {
+    background-color: white;
+    mask-image: url(../img/hearst_corp.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#lonely-p {
+    background-color: white;
+    mask-image: url(../img/lonely_planet.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
+#cc-outdoor {
+    background-color: white;
+    mask-image: url(../img/clear_channel.svg);
+    mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    height: 100%;
+}
+
 /* COLONNE */
+
+.col-10 {
+    width: 10%;
+}
 
 .col-20 {
     width: 20%;
@@ -199,6 +307,10 @@ h1 {
     color: white;
 }
 
+.bg-lightgrey {
+    background-color: #F5F5F5;
+}
+
 /* COLOR TEXT */
 
 .c-white {
@@ -223,6 +335,10 @@ h1 {
 
 /* FONT */
 
+.font-size-13 {
+    font-size: 13px;
+}
+
 .font-size-22 {
     font-size: 22px;
 }
@@ -242,8 +358,21 @@ h1 {
     border-bottom: 1px solid #999999;
 }
 
+.border-t-b {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.border-top {
+    border-top: 3px solid #999999;
+}
+
 .border-price {
     border: 1px solid #999999;
+}
+
+.border-1sb {
+    border: 1px solid black;
 }
 
 /* TEXT ALIGN */
@@ -276,6 +405,10 @@ h1 {
 
 /* MARGIN */
 
+.margin-40 {
+    margin: 40px;
+}
+
 .margin-l-10 {
     margin-left: 10px;
 }
@@ -286,6 +419,10 @@ h1 {
 
 .margin-r-40 {
     margin-right: 40px;
+}
+
+.margin-r-60 {
+    margin-right: 60px;
 }
 
 .margin-b-20 {
@@ -312,6 +449,14 @@ h1 {
     margin-top: 150px;
 }
 
+.margin-t-b-150 {
+    margin: 150px 0;
+}
+
+.margin-t-b-10 {
+    margin: 10px 0;
+}
+
 .margin-t-20-b-40 {
     margin: 20px 0 40px 0;
 }
@@ -334,12 +479,40 @@ h1 {
     padding: 10px 0;
 }
 
+.p-t-b-20 {
+    padding: 20px 0;
+}
+
+.p-t-b-40 {
+    padding: 40px 0;
+}
+
+.p-t-b-100 {
+    padding: 100px 0;
+}
+
+.p-t-b-150 {
+    padding: 150px 0;
+}
+
 .p-b-30 {
     padding-bottom: 30px;
 }
 
+.p-r-20 {
+    padding-right: 20px;
+}
+
 .p-l-r-10 {
     padding: 0 10px;
+}
+
+.p-l-r-20 {
+    padding: 0 20px;
+}
+
+.p-l-5 {
+    padding-left: 5px;
 }
 
 .p-1 {
@@ -348,6 +521,10 @@ h1 {
 
 .p-10 {
     padding: 10px;
+}
+
+.p-t-10 {
+    padding-top: 10px;
 }
 
 .p-t-30 {
